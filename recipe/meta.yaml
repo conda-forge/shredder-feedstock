@@ -22,7 +22,7 @@ requirements:
     - python >=3.7
     - numpy
     - numba
-    - ngmix >=1,<2
+    - ngmix >=2
     - esutil
     - galsim
 
