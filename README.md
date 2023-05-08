@@ -1,11 +1,11 @@
-About shredder
-==============
+About shredder-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shredder-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/esheldon/shredder
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shredder-feedstock/blob/main/LICENSE.txt)
 
 Summary: An astronomical image deblender
 
@@ -144,7 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@beckermr](https://github.com/beckermr/)
-
-
-<!-- dummy commit to enable rerendering -->
 
