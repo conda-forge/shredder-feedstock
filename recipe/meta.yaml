@@ -12,14 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy
     - numba
     - ngmix >=2
@@ -27,6 +27,8 @@ requirements:
     - galsim
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - shredder
 
